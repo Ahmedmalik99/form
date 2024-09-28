@@ -11,22 +11,22 @@
 <style>
     .box2 {
     background-image: radial-gradient(circle, rgb(0, 0, 0) , rgb(143, 143, 144) );
-    width: 400px; /* Larger size */
-    height: 400px; /* Larger size */
+    width: 400px; 
+    height: 400px; 
     display: inline-block;
     position: absolute;
     top: 0;
     left: 0;
-    border-radius: 50%; /* Circular shape */
+    border-radius: 50%; 
     animation: moveBigBubble 40s infinite;
-    opacity: 0.1; /* Adjusted opacity */
+    opacity: 0.1; 
 }
 
 @keyframes moveBigBubble {
     0% {
         top: 0;
         left: 0;
-        border-radius: 44% 56% 74% 26% / 61% 64% 36% 39% ; /* Circular shape at start */
+        border-radius: 44% 56% 74% 26% / 61% 64% 36% 39% ; 
         transform: rotate(-50deg);
 
     }
@@ -34,21 +34,20 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        border-radius: 75% 25% 74% 26% / 61% 73% 27% 39% ; /* Change shape */
-
+        border-radius: 75% 25% 74% 26% / 61% 73% 27% 39% ; 
     }
     50% {
         top: 80%;
         left: 20%;
         transform: translate(-80%, -80%);
-        border-radius: 28% 72% 93% 7% / 17% 73% 27% 83% ; /* Change shape */
+        border-radius: 28% 72% 93% 7% / 17% 73% 27% 83% ; 
        
     }
     75% { top: 80%;
         left: 0;
         transform: translate(-70%, -80%);
 
-        border-radius: 66% 34% 21% 79% / 70% 73% 27% 30% ; /* Circular shape at end */
+        border-radius: 66% 34% 21% 79% / 70% 73% 27% 30% ; 
     }
        
     
@@ -57,7 +56,7 @@
         top: 0;
         left: 0;
         transform: rotate(-50deg);
-        border-radius: 44% 56% 74% 26% / 61% 64% 36% 39%; /* Circular shape at end */
+        border-radius: 44% 56% 74% 26% / 61% 64% 36% 39%; 
        
     }
 }
@@ -78,19 +77,19 @@
     font-family: roboto;
     left: 570px;
     top: 200px;
-    transform: scaleX(0.9); /* Initial transform */
+    transform: scaleX(0.9); 
     font-weight: 500;
     letter-spacing: 2px;
-    animation: logAnimation 2s ease-in-out forwards; /* Apply animation */
+    animation: logAnimation 2s ease-in-out forwards; 
 }
 
-/* Define keyframes for the animation */
+
 @keyframes logAnimation {
     0% {
-        transform: scaleX(0.9); /* Start state */
+        transform: scaleX(0.9); 
     }
     100% {
-        transform: scaleX(1); /* End state */
+        transform: scaleX(1); 
     }
 }
 
@@ -139,8 +138,7 @@
         25% { background-color: rgb(149, 149, 149);
         
         }
-        /* 50% { background-color: rgb(120, 120, 120); }
-        75% { background-color: rgb(155, 155, 155); } */
+        
         100% { background-color: rgb(191, 189, 189 , 0.3);
         height: 25px;
         
@@ -186,24 +184,23 @@
     animation-name: td;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: 1; /* Optional: to repeat the animation */
+    animation-iteration-count: 1; 
     color: white ;
-    animation-fill-mode: forwards; /* Keep the final color after animation */
+    animation-fill-mode: forwards; 
     font-weight: 700;
 
 }   
 @keyframes tr {
-    25% { background-color: rgb(127, 84, 196); } /* Light pinkish color */
-    50% { background-color: rgb(117, 45, 181); }   /* Your theme's deep blue-purple */
-    75% { background-color: rgb(87, 22, 144);} /* Light blue for contrast */
+    25% { background-color: rgb(127, 84, 196); } 
+    50% { background-color: rgb(117, 45, 181); }   
+    75% { background-color: rgb(87, 22, 144);} 
     100% { background-color: rgb(56, 10, 96); } 
 }
 @keyframes td {
-    25% { background-color: rgb(127, 84, 196); } /* Light pinkish color */
-    50% { background-color: rgb(117, 45, 181); }   /* Your theme's deep blue-purple */
-    75% { background-color: rgb(87, 22, 144);} /* Light blue for contrast */
-    100% { background-color: rgb(56, 10, 96); }            /* Back to white */
-    
+    25% { background-color: rgb(127, 84, 196); } 
+    50% { background-color: rgb(117, 45, 181); }  
+    75% { background-color: rgb(87, 22, 144);} 
+    100% { background-color: rgb(56, 10, 96); }  
 }
  
 .box {
